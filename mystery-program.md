@@ -25,4 +25,4 @@ repeats this process for all n nodes.
 Worst case, the list contains no duplicates, so the input size will always be n and the algorithm will have to check
 n * n - 1 elements.
 
-Therefore, the Big-O complexity of this algorithm is O(n^2)
+Therefore, the Big-O complexity of this algorithm is O(n^2).
