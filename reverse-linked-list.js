@@ -1,6 +1,5 @@
 const LinkedList = require('./linked-list');
 
-
 const reverseLinkedList = function(list) {
 
 	let current = list.head;
@@ -14,7 +13,7 @@ const reverseLinkedList = function(list) {
 		current = next;
 	}
 
-	console.log(JSON.stringify(previous));
+	//console.log(JSON.stringify(previous));
 	list.head = previous;
 };
 

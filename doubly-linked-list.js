@@ -177,28 +177,30 @@ const display = list => {
 	return;
 };
 
-function main() {
-	const DLL = new DLinkedList();
+// function main() {
+// 	const DLL = new DLinkedList();
 
-	//isEmpty(DLL);
+// 	//isEmpty(DLL);
 
-	DLL.insertLast('Aquaria');
-	DLL.insertLast('Caprica');
-	DLL.insertLast('Gemenon');
-	DLL.insertLast('Picon');
-	DLL.insertLast('Sagittaron');
+// 	DLL.insertLast('Aquaria');
+// 	DLL.insertLast('Caprica');
+// 	DLL.insertLast('Gemenon');
+// 	DLL.insertLast('Picon');
+// 	DLL.insertLast('Sagittaron');
 
-	DLL.insertBefore('Abraham Lincoln','Gemenon');
-	DLL.insertAfter('The Jackson 5', 'Abraham Lincoln');
+// 	DLL.insertBefore('Abraham Lincoln','Gemenon');
+// 	DLL.insertAfter('The Jackson 5', 'Abraham Lincoln');
 
-	let index = 2;
-	DLL.insertAt(index, 'Tauron');
-	DLL.remove('Picon');
+// 	let index = 2;
+// 	DLL.insertAt(index, 'Tauron');
+// 	DLL.remove('Picon');
 
-	display(DLL);
+// 	display(DLL);
 
-	console.log('Found:',DLL.find('Tauron'));
+// 	console.log('Found:',DLL.find('Tauron'));
 
-}
+// }
 
-main();
+// main();
+
+module.exports = DLinkedList;
